@@ -4,9 +4,6 @@ import * as Location from "expo-location";
 import MapView, { Marker } from "react-native-maps";
 import { StatusBar } from 'expo-status-bar';
 
-const windowWidth = Dimensions.get("window").width;
-const windowHeight = Dimensions.get("window").height;
-
 const WaitingDriverScreen = () => {
   const [currentLocation, setCurrentLocation] = useState(null);
   const [initialRegion, setInitialRegion] = useState(null);
